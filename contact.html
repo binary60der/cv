@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/form1.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather%20|Monsterrat%20|Sacramento">
+</head>
+
+<body>
+    <a class = "btn" href="index.html">Exit </a>
+    <h1>Hii There</h1>
+
+    <!-- <h3>You can putup a message for me below:</h3> -->
+    <form action="mailto:pranshupandey.ec21@rvce.edu.in" method="post" enctype="text/plain" class="form">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="mynme" id="name">
+        </div>
+        <br>
+        <label for="myid">Email:</label>
+        <div>
+            <input type="email" name="myemail" id="myid ">
+        </div>
+        <br>
+        <label for="mynumber" style="font-size: x-large;">Mobile Number:</label>
+        <div>
+            <input type="number" name="mynumber" id="mynumber" style="border: 2px solid rgb(0, 255, 94); font-size: x-large;" maxlength = "10">
+        </div>
+        <br>
+        <label for="mygender">Gender:</label>
+        <div>
+            Male<input type="radio" name="mygender" > Female<input type="radio" name="mygender" id="mygender" >
+        </div>
+        <br>
+        <div>
+            <label for="intro">Write about your self:</label>
+            <br><textarea name="my text" cols="30" rows="10" id="intro" style="border: 4px solid rgb(191, 59, 36);">
+            </textarea>
+        </div>        
+        <br>        
+        <br>
+        <div>
+            <input type="submit" value="Submt Now" style="border: 4px solid green;">
+            <input type="reset" value="Reset Now" style="border: 4px solid red;">
+        </div>
+    </form>
+</body>
+
+</html>
